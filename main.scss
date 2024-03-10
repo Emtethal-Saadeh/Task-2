@@ -6,6 +6,10 @@ $primary-color:#6f83ff;
 $primary2-color:#f1f3ff;
 $pink:#ff33a5;
 $cwhite:#d1d3d4;
+$cwhite2:#6c757d;
+$cwhite3:#e6f9f1;
+$cblack2:#3a424b;
+$cgreen:#40cf94;
 .bgph{
     background-color:$bgph ;
 }
@@ -34,7 +38,7 @@ $cwhite:#d1d3d4;
 }
 
 .fa { 
-    color: #6c757d;
+    color: $cwhite2;
 }
 .log-market{
     width: 60px;
@@ -83,14 +87,7 @@ $cwhite:#d1d3d4;
       transition: opacity 0.3s;
       margin-top: 7px;
     }
-  }
-
-
-  
-
-
-
-
+}
 
 .haver {
     &:hover {
@@ -104,7 +101,7 @@ $cwhite:#d1d3d4;
 
 .havb {
     &:hover {
-        background-color: #3a424b !important;
+        background-color: $cblack2 !important;
         color: white !important;
     }
 }
@@ -153,14 +150,14 @@ $cwhite:#d1d3d4;
 }
 
 .status{
-    background-color: #e6f9f1;
-    color: #40cf94;
+    background-color: $cwhite3;
+    color: $cgreen;
     width: 70px;
     height: 40px;
     border-radius: 10px;
     padding-top: 5px;
     .fa{
-        color: #40cf94;
+        color: $cgreen;
     }
 }
 .fs-12{
